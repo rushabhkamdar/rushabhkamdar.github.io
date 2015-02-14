@@ -1,0 +1,127 @@
+/*
+   ______               __                __                     
+  / ____/____   ____   / /_ ____ _ _____ / /_   _____ _____ _____
+ / /    / __ \ / __ \ / __// __ `// ___// __/  / ___// ___// ___/
+/ /___ / /_/ // / / // /_ / /_/ // /__ / /_ _ / /__ (__  )(__  ) 
+\____/ \____//_/ /_/ \__/ \__,_/ \___/ \__/(_)\___//____//____/  
+																 
+*/
+
+.contact-container {
+	background: #D3D3D3;
+	color: black;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Open Sans', 'Nunito', sans-serif, serif;
+}
+
+div.social a {
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	border-radius: 5px;
+	font-family: "scicons";
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	color: #fff;
+	transition: background-color .2s linear, color .2s linear;
+}
+
+div.social a:before {
+	width: inherit;
+	height: inherit;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+div.social a.icon-mail {
+	background-color: rgb(39, 174, 96);
+	font-size: 45px;
+}
+
+div.social a.icon-mail:hover {
+	background-color: #fff;
+	color: rgb(39, 174, 96);
+}
+
+
+div.social a.icon-facebook {
+	background-color: #3b5998;
+	font-size: 45px;
+}
+
+div.social a.icon-facebook:hover {
+	background-color: #fff;
+	color: #3b5998;
+}
+
+
+div.social a.icon-github {
+	background-color: #000;
+	font-size: 45px;
+}
+
+div.social a.icon-github:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+
+div.social a.icon-google {
+	background-color: #D34836;
+	font-size: 45px;
+}
+
+div.social a.icon-google:hover {
+	background-color: #fff;
+	color: #D34836;
+}
+
+
+.contact-containter {
+	background: #444;
+	color: white;
+}
+
+body div div div div a:hover {
+	text-decoration: none;
+}
+
+
+
+/*
+.email-picture,
+.github-picture,
+.facebook-picture,
+.google-picture {
+	text-align: center;
+}
+
+.email-box,
+.facebook-box,
+.github-box,
+.google-box {
+	font-size: 40px;
+}
+
+.email,
+.facebook,
+.github,
+.google {
+	font-size: 40px;
+	margin-top: -5px;
+	color: white;
+}
+
+a:hover - when user hover over link
+a:active - when user clicks the link
+
+a:visited - An unvisted link
+a:link - A visted link
+
+
+a:focus - when user
+a:focus:hover
+*/
